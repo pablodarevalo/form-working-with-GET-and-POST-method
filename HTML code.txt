@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice, GET and POST method</title>
+</head>
+<body>
+       
+    <form method="POST">
+
+        <label for="name">Name:</label> 
+        <input type="text" id="name" placeholder="Type your name here" name="name" required="true"> <br/>
+
+        <label for="surname">Surname:</label> 
+        <input type="text" id="surname" placeholder="Type your surname here" name="surname" required="true"> <br/>
+
+        <label for="password">Password:</label> 
+        <input type="password" id="password"  name="password" required="true"> <br/>
+
+        <input type="submit">
+    </form>  
+<!--
+    <form method="GET">
+
+        <label for="name">Name:</label> 
+        <input type="text" id="name" placeholder="Type your name here" name="name" required="true"> <br/>
+
+        <label for="surname">Surname:</label> 
+        <input type="text" id="surname" placeholder="Type your surname here" name="surname" required="true"> <br/>
+
+        <label for="password">Password:</label> 
+        <input type="password" id="password"  name="password" required="true"> <br/>
+
+        <input type="submit">
+    </form>
+ -->
+
+
+
+
+</body>
+</html>
